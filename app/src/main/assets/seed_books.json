@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "categories": ["Classics", "Science Fiction", "Fantasy", "Mystery", "History", "Science", "Philosophy", "Self-Help"],
+  "books": [
+    { "title": "Pride and Prejudice", "author": "Jane Austen", "category": "Classics", "totalPages": 432, "currentPage": 432, "rating": 5, "favorite": true, "description": "Elizabeth Bennet and Mr. Darcy in Regency England." },
+    { "title": "Moby-Dick", "author": "Herman Melville", "category": "Classics", "totalPages": 635, "currentPage": 120, "rating": 3, "favorite": false, "description": "Captain Ahab's obsessive hunt for the white whale." },
+    { "title": "Frankenstein", "author": "Mary Shelley", "category": "Classics", "totalPages": 280, "currentPage": 280, "rating": 4, "favorite": false, "description": "A scientist creates life and must face the consequences." },
+    { "title": "Crime and Punishment", "author": "Fyodor Dostoevsky", "category": "Classics", "totalPages": 671, "currentPage": 0, "rating": 0, "favorite": false, "description": "Raskolnikov's crime and his tormented conscience." },
+    { "title": "The Time Machine", "author": "H. G. Wells", "category": "Science Fiction", "totalPages": 118, "currentPage": 118, "rating": 4, "favorite": true, "description": "A Victorian inventor travels to the year 802,701." },
+    { "title": "The War of the Worlds", "author": "H. G. Wells", "category": "Science Fiction", "totalPages": 192, "currentPage": 64, "rating": 0, "favorite": false, "description": "Martians invade southern England." },
+    { "title": "Twenty Thousand Leagues Under the Seas", "author": "Jules Verne", "category": "Science Fiction", "totalPages": 426, "currentPage": 0, "rating": 0, "favorite": false, "description": "Captain Nemo and the submarine Nautilus." },
+    { "title": "Journey to the Center of the Earth", "author": "Jules Verne", "category": "Science Fiction", "totalPages": 240, "currentPage": 75, "rating": 4, "favorite": true, "description": "An expedition down an Icelandic volcano." },
+    { "title": "Alice's Adventures in Wonderland", "author": "Lewis Carroll", "category": "Fantasy", "totalPages": 176, "currentPage": 176, "rating": 5, "favorite": true, "description": "Alice falls down the rabbit hole." },
+    { "title": "The Wonderful Wizard of Oz", "author": "L. Frank Baum", "category": "Fantasy", "totalPages": 154, "currentPage": 0, "rating": 0, "favorite": false, "description": "Dorothy is carried by a cyclone to the land of Oz." },
+    { "title": "Peter Pan", "author": "J. M. Barrie", "category": "Fantasy", "totalPages": 208, "currentPage": 50, "rating": 3, "favorite": false, "description": "The boy who wouldn't grow up." },
+    { "title": "The Hound of the Baskervilles", "author": "Arthur Conan Doyle", "category": "Mystery", "totalPages": 256, "currentPage": 256, "rating": 5, "favorite": true, "description": "Sherlock Holmes investigates a legendary hound." },
+    { "title": "A Study in Scarlet", "author": "Arthur Conan Doyle", "category": "Mystery", "totalPages": 188, "currentPage": 0, "rating": 0, "favorite": false, "description": "The first appearance of Sherlock Holmes." },
+    { "title": "The Moonstone", "author": "Wilkie Collins", "category": "Mystery", "totalPages": 528, "currentPage": 210, "rating": 4, "favorite": false, "description": "A cursed Indian diamond disappears." },
+    { "title": "The Murders in the Rue Morgue", "author": "Edgar Allan Poe", "category": "Mystery", "totalPages": 64, "currentPage": 0, "rating": 0, "favorite": false, "description": "C. Auguste Dupin solves a locked-room mystery." },
+    { "title": "The History of the Peloponnesian War", "author": "Thucydides", "category": "History", "totalPages": 648, "currentPage": 90, "rating": 3, "favorite": false, "description": "The war between Athens and Sparta." },
+    { "title": "The Histories", "author": "Herodotus", "category": "History", "totalPages": 716, "currentPage": 0, "rating": 0, "favorite": false, "description": "The Greco-Persian wars and the ancient world." },
+    { "title": "The Gallic War", "author": "Julius Caesar", "category": "History", "totalPages": 320, "currentPage": 0, "rating": 0, "favorite": false, "description": "Caesar's own account of the conquest of Gaul." },
+    { "title": "On the Origin of Species", "author": "Charles Darwin", "category": "Science", "totalPages": 502, "currentPage": 140, "rating": 4, "favorite": true, "description": "The theory of evolution by natural selection." },
+    { "title": "Relativity: The Special and General Theory", "author": "Albert Einstein", "category": "Science", "totalPages": 168, "currentPage": 0, "rating": 0, "favorite": false, "description": "Einstein explains relativity for the general reader." },
+    { "title": "Meditations", "author": "Marcus Aurelius", "category": "Philosophy", "totalPages": 254, "currentPage": 254, "rating": 5, "favorite": true, "description": "Private notes of a Stoic emperor." },
+    { "title": "The Republic", "author": "Plato", "category": "Philosophy", "totalPages": 416, "currentPage": 35, "rating": 0, "favorite": false, "description": "Socratic dialogue on justice and the ideal state." },
+    { "title": "Thus Spoke Zarathustra", "author": "Friedrich Nietzsche", "category": "Philosophy", "totalPages": 352, "currentPage": 0, "rating": 0, "favorite": false, "description": "A philosophical novel about the Übermensch." },
+    { "title": "The Art of War", "author": "Sun Tzu", "category": "Self-Help", "totalPages": 112, "currentPage": 112, "rating": 4, "favorite": false, "description": "Ancient Chinese treatise on strategy." },
+    { "title": "", "author": "Invalid Record", "category": "Classics", "totalPages": 100, "currentPage": 0, "rating": 0, "favorite": false, "description": "INVALID on purpose: empty title, must be rejected by the validator." },
+    { "title": "Broken Page Count", "author": "Invalid Record", "category": "Classics", "totalPages": 50, "currentPage": 80, "rating": 7, "favorite": false, "description": "INVALID on purpose: currentPage > totalPages and rating > 5." },
+    { "title": "Pride and Prejudice", "author": "Jane Austen", "category": "Classics", "totalPages": 432, "currentPage": 0, "rating": 0, "favorite": false, "description": "DUPLICATE on purpose: must be skipped." }
+  ]
+}

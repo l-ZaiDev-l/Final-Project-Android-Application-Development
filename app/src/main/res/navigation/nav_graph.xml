@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bookListFragment">
+
+    <fragment
+        android:id="@+id/bookListFragment"
+        android:name="com.estiam.bookshelf.ui.books.BookListFragment"
+        android:label="@string/nav_books">
+        <action
+            android:id="@+id/action_bookList_to_bookDetail"
+            app:destination="@id/bookDetailFragment" />
+        <action
+            android:id="@+id/action_bookList_to_bookEdit"
+            app:destination="@id/bookEditFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookDetailFragment"
+        android:name="com.estiam.bookshelf.ui.books.BookDetailFragment"
+        android:label="@string/title_book_detail">
+        <argument
+            android:name="bookId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_bookDetail_to_bookEdit"
+            app:destination="@id/bookEditFragment" />
+        <action
+            android:id="@+id/action_bookDetail_to_sessionEdit"
+            app:destination="@id/sessionEditFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookEditFragment"
+        android:name="com.estiam.bookshelf.ui.books.BookEditFragment"
+        android:label="@string/title_add_book">
+        <argument
+            android:name="bookId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sessionEditFragment"
+        android:name="com.estiam.bookshelf.ui.sessions.SessionEditFragment"
+        android:label="@string/title_log_session">
+        <argument
+            android:name="bookId"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/categoryListFragment"
+        android:name="com.estiam.bookshelf.ui.categories.CategoryListFragment"
+        android:label="@string/nav_categories" />
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.estiam.bookshelf.ui.stats.StatsFragment"
+        android:label="@string/nav_stats" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.estiam.bookshelf.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings" />
+</navigation>

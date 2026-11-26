@@ -1,0 +1,6 @@
+# Add project specific R8 rules here.
+# AGP will combine all keep rule files in src/main/keepRules to pass to R8
+
+# Gson reads the seed JSON into these classes by reflection: keep their fields.
+-keep class com.estiam.bookshelf.data.seed.SeedFile { *; }
+-keep class com.estiam.bookshelf.data.seed.SeedBook { *; }
